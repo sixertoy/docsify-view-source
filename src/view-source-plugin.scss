@@ -1,0 +1,68 @@
+/* ----------------------------------------
+
+ DOCSIFY VIEW SOURCE PLUGIN
+
+---------------------------------------- */
+
+.__docsify-view-source-container {
+  .__docsify-view-source-code,
+  .__docsify-view-source-preview {
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .__docsify-view-source-preview {
+    padding: 24px 26px;
+    background-color: #f8f8f8;
+  }
+
+  .__docsify-view-source-code {
+    background-color: #f9da9b;
+
+    pre,
+    code {
+      background-color: transparent;
+    }
+
+    pre::after {
+      color: #ffffff;
+    }
+  }
+
+  .__docsify-view-source-hidden {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+/* ----------------------------------------
+
+ COLORS
+
+---------------------------------------- */
+
+.docsify-view-source-palette {
+  flex: 1;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cccccc;
+}
+
+/* ----------------------------------------
+
+ DOCSIFY THEMING
+
+---------------------------------------- */
+
+// article.markdown-section > h4 {
+//   margin-bottom: 12px;
+//
+//   // couleur des titres des sections
+//   a,
+//   a span {
+//     color: #42B983 !important;
+//   }
+// }

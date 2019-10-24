@@ -1,0 +1,14 @@
+.kiss
+.scripts
+.babelrc
+.editoconfig
+.eslintignore
+.eslintrc.json
+.huskyrc.json
+.lintstagedrc.json
+.prettierignore
+.prettierrc.json
+.stylelintrc.json
+.yarnrc
+src
+node_modules
