@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Build sass files
+$(yarn bin)/node-sass --output-style=compressed ./src/view-source-plugin.scss ./styles.css

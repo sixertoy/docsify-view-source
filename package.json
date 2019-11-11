@@ -35,7 +35,7 @@
   "scripts": {
     "cleanup": "del index.js styles.css",
     "prebuild": "yarn cleanup",
-    "build": "",
+    "build": "sh ./.scripts/yarn-build",
     "prepare": "yarn build"
   }
 }
