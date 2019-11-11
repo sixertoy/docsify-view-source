@@ -1,6 +1,6 @@
 {
   "name": "docsify-view-source",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Docsify plugin: view source",
   "author": "Matthieu Lassalvy <sixertoy.github@gmail.com>",
   "license": "ISC",
