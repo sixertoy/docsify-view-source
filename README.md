@@ -1,20 +1,23 @@
 # Docsify View Source Plugin
 
-> Show/Hide code source on click
+> On click toggle code source with [Docsify](https://docsify.js.org)
 
-**Import scripts and styles**
-
-```html
-<link rel="stylesheet" href="//unpkg.com/docsify-view-source/styles.css" />
-```
+## Installation
 
 ```html
-<script src="//unpkg.com/docsify-view-source/index.js"></script>
+<head>
+  <link rel="stylesheet" href="//unpkg.com/docsify-view-source/styles.css" />
+</head>
+<body>
+  ...
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-view-source/index.js"></script>
+</body>
 ```
 
-**Add an code example in your doc**
+## Usage
 
-> `.docsify-example` is required
+> Inside your documentation instead of backtick char use an HTML element with the `.docsify-example` css class
 
 ```html
 <pre class="docsify-example">
