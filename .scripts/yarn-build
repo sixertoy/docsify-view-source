@@ -1,4 +1,10 @@
 #!/bin/bash
 
+# Cleanup des fichiers precedemment buildes
+$(yarn bin)/del index.js styles.css
+
 # Build sass files
 $(yarn bin)/node-sass --output-style=compressed ./src/view-source-plugin.scss ./styles.css
+
+# Build du fichier JS
+$(yarn bin)/rollup -c
