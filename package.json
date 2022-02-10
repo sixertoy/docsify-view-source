@@ -24,7 +24,7 @@
   "main": "src",
   "devDependencies": {
     "del-cli": "^3.0.0",
-    "node-sass": "4.10.0",
+    "node-sass": "7.0.0",
     "prettier": "1.14.3",
     "prettier-stylelint": "0.4.2",
     "rollup-plugin-terser": "^5.1.2",
